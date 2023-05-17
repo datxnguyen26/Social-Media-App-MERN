@@ -12,7 +12,7 @@ const postSchema = mongoose.Schema({
     },
     createdAt: {
         type: Date,
-        default: Date.now(),
+        default: Date.now     //Change from new Date to Date.now() to fix timestamp bug
     }
 })
 
