@@ -47,10 +47,14 @@ You can either view this app using the deployment link or the follow the steps b
    ```
 3. Change the baseUrl in /client/src/api/index.js from Heroku to your localhost port for the backend
    ```js
-   const API = 'http://localhost:5000';
+   const API = axios.create({ baseURL: 'http://localhost:YOUR-PORT-NUMBER' });
    ```
-4. Change the script of /server/package.json to nodemon index.js
-
+4. Change the script of /server/package.json
+   ```js
+    "scripts": {
+    "start": "nodemon index.js"
+  },
+   ```   
 5. Run the back end server
  ```sh
    npm start
