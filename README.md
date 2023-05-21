@@ -51,9 +51,9 @@ You can either view this app using the deployment link or the follow the steps b
    ```
 4. Change the script of /server/package.json
    ```js
-    "scripts": {
-    "start": "nodemon index.js"
-  },
+        "scripts": {
+        "start": "nodemon index.js"
+        }
    ```   
 5. Run the back end server
  ```sh
