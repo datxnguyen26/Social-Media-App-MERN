@@ -56,13 +56,13 @@ You can either view this app using the deployment link or the follow the steps b
    }
    ```   
 5. Run the back end server
- ```sh
+   ```sh
    npm start
    ```
 6. Run the front end page
- ```sh
+   ```sh
    npm start
- ```
+   ```
 <!-- USAGE EXAMPLES -->
 ## Usage
 
