@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="images/memories.png" alt="Logo" width="80" height="80">
+    <img src="images/Memories.png" alt="Logo" width="80" height="80">
 </div>
 <h1 align="center">Memories</h1>
 
