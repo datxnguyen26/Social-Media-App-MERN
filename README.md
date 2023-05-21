@@ -12,7 +12,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p>Memories is a MERN stack project and it is a social media app where user can make post, delete posts, and like posts. Currently, there is no user authentication function and it is being build at the moment using GoogleAuth.
-The page is being deployed on <a href="https://socialmemories.netlify.app" target='_blank'>Netlify</a>/</p>
+The page is being deployed on <a href="https://socialmemories.netlify.app" target='_blank'>Netlify</a></p>
 
 ### Built With
 
@@ -26,12 +26,10 @@ The page is being deployed on <a href="https://socialmemories.netlify.app" targe
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+You can either view this app using the deployment link or the follow the steps below to run it in your local environment.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -39,20 +37,28 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
-   npm install
+   npm install --legacy-peer-deps
    ```
-4. Enter your API in `config.js`
+3. Change the baseUrl in /client/src/api/index.js from Heroku to your localhost port for the backend
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   const API = 'http://localhost:5000';
    ```
+4. Change the script of /server/package.json to nodemon index.js
 
+5. Run the back end server
+ ```sh
+   npm start
+   ```
+6. Run the front end page
+ ```sh
+   npm start
+ ```
 <!-- USAGE EXAMPLES -->
 ## Usage
 
