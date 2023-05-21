@@ -1,8 +1,3 @@
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -23,6 +18,7 @@ The page is being deployed on <a href="https://socialmemories.netlify.app" targe
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 <br />
 ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -65,5 +61,4 @@ You can either view this app using the deployment link or the follow the steps b
    ```
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To start using the social media page, you can fill in the form to the left with all the information and hit submit. The user can delete, like a post and edit a post that they recently published.
