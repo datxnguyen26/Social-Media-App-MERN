@@ -10,18 +10,11 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Memories</h3>
-
-  <p align="center">
-    project_description
-  </p>
-</div>
+<h1 align="center">Memories</h1>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+  <p></p>
 ### Built With
 
 * [![Next][Next.js]][Next-url]
