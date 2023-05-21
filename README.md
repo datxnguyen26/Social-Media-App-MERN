@@ -8,11 +8,10 @@
 <div align="center">
     <img src="images/Memories.png" alt="Logo" width="1240" height="641">
 </div>
-<h1 align="center">Memories</h1>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p>dsd</p>
+<p>Memories is a MERN stack project and it is a social media app where user can make post, delete posts, and like posts. Currently, there is no user authentication function and it is being build at the moment using GoogleAuth.  </p>
 
 ### Built With
 
