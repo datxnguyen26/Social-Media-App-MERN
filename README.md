@@ -11,7 +11,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p>Memories is a MERN stack project and it is a social media app where user can make post, delete posts, and like posts. Currently, there is no user authentication function and it is being build at the moment using GoogleAuth.  </p>
+<p>Memories is a MERN stack project and it is a social media app where user can make post, delete posts, and like posts. Currently, there is no user authentication function and it is being build at the moment using GoogleAuth.
+The page is being deployed on https://socialmemories.netlify.app/</p>
 
 ### Built With
 
